@@ -1,7 +1,7 @@
 {
   "name": "ember-cli-rupture",
-  "version": "0.0.0",
-  "description": "The default blueprint for ember-cli addons.",
+  "version": "0.1.0",
+  "description": "simple media queries in stylus for ember-cli",
   "directories": {
     "doc": "doc",
     "test": "tests"
@@ -11,11 +11,15 @@
     "start": "ember server",
     "test": "ember try:testall"
   },
-  "repository": "",
+  "repository": "https://github.com/danilovaz/ember-cli-rupture",
   "engines": {
     "node": ">= 0.10.0"
   },
-  "author": "",
+  "author": {
+    "name": "Danilo Vaz",
+    "email": "danilovaz@hotmail.com.br",
+    "url": "http://danilovaz.github.io/"
+  },
   "license": "MIT",
   "devDependencies": {
     "broccoli-asset-rev": "^2.4.2",
@@ -40,10 +44,16 @@
     "loader.js": "^4.0.1"
   },
   "keywords": [
-    "ember-addon"
+    "ember-addon",
+    "ember-cli",
+    "ember",
+    "rupture",
+    "media queries",
+    "css"
   ],
   "dependencies": {
-    "ember-cli-babel": "^5.1.6"
+    "ember-cli-babel": "^5.1.6",
+    "broccoli-rupture": "^0.1.0"
   },
   "ember-addon": {
     "configPath": "tests/dummy/config"
